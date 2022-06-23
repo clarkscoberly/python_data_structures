@@ -6,17 +6,20 @@
 * Introduction
 * Purpose
 * Performance
+* Characteristics
 * Example
 * Problem to Solve
 ## III. Sets
 * Introduction
 * Purpose
 * Performance
+* Characteristics
 * Example
 * Problem to Solve
 ## IV. Trees
 * Introduction
 * Purpose
 * Performance
+* Characteristics
 * Example
 * Problem to Solve
