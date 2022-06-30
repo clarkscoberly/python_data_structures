@@ -1,8 +1,8 @@
-### Stacks
+# Stacks
 
-## Introduction
-## Purpose
-## Performance
-## Characteristics
-## Example
-## Problem to Solve
+### Introduction
+### Purpose
+### Performance
+### Characteristics
+### Example
+### Problem to Solve
