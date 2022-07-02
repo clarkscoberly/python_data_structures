@@ -7,9 +7,12 @@ A **stack** is a data structure that takes a piece of data and adds it to a cont
 Consider the way that you eat icecream for example. The first bites of icecream that you eat when you pull out those first scoops were the last drops of icecream placed within that container during production. **The carton is filled from bottom to top.** Code inside of a **stack** is much the same. You store the first *bits* of code at the bottom of the **stack** and pile other pieces on top of it.
 
 ### Purpose and Characteristics
-The Undo, not to be confused with the hairstyle, the updo.
 
-One of the major purposes of the **stack** is an allowance for the user to reverse the order of the data that has been put onto the stack. This functionality is used throughout every day life in the form of the back button on your phone or computer, the undo text or control z and even putting your undone actions onto another stack so that you can redo items that you have undone.
+Perhaps the most important of the different uses of the **stack** is that of function calls, especially when these are "nested" and you begin going multiple layers deep calling one function after another. The structure that keeps track of these layers and then is able to go back up the line and return to your original function call with all the relevant data retrieved is the Stack.
+
+One of the major purposes of the **stack** is an allowance for the user to reverse the order of the data that has been put onto the stack. This functionality is used throughout every day life in the form of the back button on your phone or computer, the undo text operation or even putting your undone actions onto another stack so that you can redo items that you have undone.
+
+
 
 ### Performance
 
@@ -21,10 +24,6 @@ Add       | my_stack.append(item) | Put data onto the top of the stack | 0(1)
 Remove    | my_stack.pop() | Take the last item off the top of the stack | 0(1)
 Length    | len(my_stack) | Find the number of items on the stack | 0(1)
 Empty     | if len(my_stack) == 0: | Check to see if the stack is empty | 0(1)
-
-### Characteristics
-
-
 
 ### Example
 ```python
@@ -180,4 +179,4 @@ stack.length()
 # 1 2 3 3 Flibbity Gibbit 
 # 5```
 
-[ProblemSolution]((https://github.com/clarkscoberly/python_data_structures/blob/main/Stacks_problem_solution.md))
+[ProblemSolution](https://github.com/clarkscoberly/python_data_structures/blob/main/Stacks_problem_solution.md)
