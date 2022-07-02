@@ -179,4 +179,5 @@ stack.length()
 # 1 2 3 3 
 # 1 2 3 3 Flibbity Gibbit 
 # 5```
+
 [ProblemSolution](https://github.com/clarkscoberly/python_data_structures/blob/main/Stacks_problem_solution.md)
