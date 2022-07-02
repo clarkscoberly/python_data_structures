@@ -25,12 +25,15 @@ One of the major purposes of the **stack** is an allowance for the user to rever
 
 ### Performance
 
-Performance of a **Stack**
+Performance of a **Stack** with common operations
 
-Operation | Usage | Performance
--------------------------------
-Add | Put data onto the stack | 0(1)
--------------------------------
+Operation | Usage                      | Performance
+-------------------------------------------------
+Add       | Put data onto end of stack | 0(1)
+Remove    | Take last item off stack   | 0(1)
+Length    | Find the number of items on the stack | 0(1)
+Empty     | Check to see if the stack is empty | 0(1)
+
 
 
 
