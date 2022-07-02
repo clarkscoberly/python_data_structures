@@ -76,16 +76,13 @@ ice_cream.add_scoop("Chocolate")
 ice_cream.check_ice_cream()
 ice_cream.eat_scoop()
 ice_cream.check_ice_cream()
-
-"""
-Output:
+```
+**Output of previous example:**
 2
 Vanilla
 Chocolate
 1
 Vanilla
-"""
-```
 
 
 ### Problem to Solve
