@@ -78,6 +78,7 @@ ice_cream.eat_scoop()
 ice_cream.check_ice_cream()
 ```
 **Output of previous example:**
+
 2
 
 Vanilla
