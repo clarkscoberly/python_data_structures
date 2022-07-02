@@ -1,8 +1,45 @@
 # Stacks
 
 ### Introduction
-### Purpose
+
+A **stack** is a data structure that takes data and returns back to the user the last item that was put into it. Effectively creating a last in first out or LIFO. This is used for various effects and a wide range of problems implemented in python using a list.
+
+Consider the way that you eat icecream for example. The first pieces of icecream that you actually eat when you pull out that first scoop was the last drop of icecream put in during it's production. As the carton is filled from bottom to top. Code inside of this data structure is much the same. You store the first *bits* of code at the bottom of the stack and pile other pieces on top of it.
+
+What is the purpose of the data structure?
+
+What is the performance of the data structure (you will need to talk about big O notation)?
+
+What kind of problems can be solved using the data structure?
+
+How would the data structure be used in Python (in some cases you will need to discuss recursion)?
+
+What kind of errors are common when using the data structure?
+
+
+
+### Purpose and Characteristics
+The Undo, not to be confused with the hairstyle, the updo.
+
+One of the major purposes of the **stack** is an allowance for the user to reverse the order of the data that has been put onto the stack. This functionality is used throughout every day life in the form of the back button on your phone or computer, the undo text or control z and even putting your undone actions onto another stack so that you can redo items that you have undone.
+
 ### Performance
+
+Performance of a **Stack**
+
+Operation | Usage | Performance
+-------------------------------
+Add | Put data onto the stack | 0(1)
+-------------------------------
+
+
+
 ### Characteristics
+
+
+
 ### Example
+
+
 ### Problem to Solve
+
