@@ -2,21 +2,9 @@
 
 ### Introduction
 
-A **stack** is a data structure that takes data and returns back to the user the last item that was put into it. Effectively creating a last in first out or LIFO. This is used for various effects and a wide range of problems implemented in python using a list.
+A **stack** is a data structure that takes a piece of data and adds it to a container which you can only pull out the last item that was put into it. Effectively creating a last in first out or *LIFO*. This is used for various effects and a wide range of problems. It is implemented within python using a list/array.
 
-Consider the way that you eat icecream for example. The first pieces of icecream that you actually eat when you pull out that first scoop was the last drop of icecream put in during it's production. As the carton is filled from bottom to top. Code inside of this data structure is much the same. You store the first *bits* of code at the bottom of the stack and pile other pieces on top of it.
-
-What is the purpose of the data structure?
-
-What is the performance of the data structure (you will need to talk about big O notation)?
-
-What kind of problems can be solved using the data structure?
-
-How would the data structure be used in Python (in some cases you will need to discuss recursion)?
-
-What kind of errors are common when using the data structure?
-
-
+Consider the way that you eat icecream for example. The first bites of icecream that you eat when you pull out those first scoops were the last drops of icecream placed within that container during production. **The carton is filled from bottom to top.** Code inside of a **stack** is much the same. You store the first *bits* of code at the bottom of the **stack** and pile other pieces on top of it.
 
 ### Purpose and Characteristics
 The Undo, not to be confused with the hairstyle, the updo.
@@ -33,9 +21,6 @@ Add       | my_stack.append(item) | Put data onto the top of the stack | 0(1)
 Remove    | my_stack.pop() | Take the last item off the top of the stack | 0(1)
 Length    | len(my_stack) | Find the number of items on the stack | 0(1)
 Empty     | if len(my_stack) == 0: | Check to see if the stack is empty | 0(1)
-
-
-
 
 ### Characteristics
 
@@ -86,7 +71,6 @@ Chocolate
 Vanilla
 """
 ```
-
 
 ### Problem to Solve
 
