@@ -42,6 +42,50 @@ Empty     | if len(my_stack) == 0: | Check to see if the stack is empty | 0(1)
 
 
 ### Example
+```python
+"""
+The following is an example of a simple STACK being
+implemented.
+"""
+
+class Ice_Cream_Stack:
+    
+    def __init__(self):
+        # The container or "Stack"
+        self.container = []
+        
+    # add a scoop on to the top of the STACK
+    def add_scoop(self, type):
+        self.container.append(type)
+
+    # Take a scoop off the top of the STACK
+    def eat_scoop(self):
+        self.container.pop()
+
+    # Check the height of the STACK
+    def check_ice_cream(self):
+        print(len(self.container))
+        for scoop in self.container:
+            print(scoop)
+
+ice_cream = Ice_Cream_Stack()
+
+ice_cream.add_scoop("Vanilla")
+ice_cream.add_scoop("Chocolate")
+
+ice_cream.check_ice_cream()
+ice_cream.eat_scoop()
+ice_cream.check_ice_cream()
+
+"""
+Output:
+2
+Vanilla
+Chocolate
+1
+Vanilla
+"""
+```
 
 
 ### Problem to Solve
